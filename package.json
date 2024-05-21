@@ -31,7 +31,7 @@
   "private": true,
   "eslintConfig": {
     "parser": "babel-eslint",
-    "extends": ["standard", "standard-jsx", "standard-react"]
+    "extends": ["standard", "standard-jsx", "standard-reacta"]
 
   }
 }
