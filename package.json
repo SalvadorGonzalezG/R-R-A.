@@ -31,7 +31,10 @@
   "private": true,
   "eslintConfig": {
     "parser": "babel-eslint",
-    "extends": ["standard", "standard-jsx", "standard-reacta"]
+    "extends": ["standard", "standard-jsx", "standard-reacta"],
+    "rules": {
+      "react/prop-types": "off"
+    }
 
   }
 }
