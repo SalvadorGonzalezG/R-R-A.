@@ -7,6 +7,7 @@ export default [
         forksCount: 300,
         ratingAverage: 1,
         reviewCount: 0,
+        stargazersCount:1800,
         ownerAvatarUrl: 'https://github.com/SalvadorGonzalezG'
     },
     {
@@ -17,6 +18,7 @@ export default [
         forksCount: 280,
         ratingAverage: 5,
         reviewCount: 1,
+        stargazersCount:102,
         ownerAvatarUrl: 'https://github.com/SalvadorGonzalezGG'
     },
     {
@@ -27,6 +29,7 @@ export default [
         forksCount: 323,
         ratingAverage: 2,
         reviewCount: 600,
+        stargazersCount:1100,
         ownerAvatarUrl: 'https://github.com/SalvadorGonzalezG'
     },
     {
@@ -37,6 +40,7 @@ export default [
         forksCount: 323,
         ratingAverage: 2,
         reviewCount: 600,
+        stargazersCount:3000,
         ownerAvatarUrl: 'https://github.com/SalvadorGonzalezG'
     },
     {
@@ -47,6 +51,7 @@ export default [
         forksCount: 323,
         ratingAverage: 2,
         reviewCount: 600,
+        stargazersCount:1000,
         ownerAvatarUrl: 'https://github.com/SalvadorGonzalezG'
     },
     {
@@ -57,6 +62,7 @@ export default [
         forksCount: 323,
         ratingAverage: 2,
         reviewCount: 600,
+        stargazersCount: 8500,
         ownerAvatarUrl: 'https://github.com/SalvadorGonzalezG'
     },
     {
@@ -67,6 +73,7 @@ export default [
         forksCount: 323,
         ratingAverage: 2,
         reviewCount: 600,
+        stargazersCount:9300,
         ownerAvatarUrl: 'https://github.com/SalvadorGonzalezG'
     },
     {
@@ -77,6 +84,7 @@ export default [
         forksCount: 323,
         ratingAverage: 2,
         reviewCount: 600,
+        stargazersCount: 2100,
         ownerAvatarUrl: 'https://github.com/SalvadorGonzalezG'
     }
 ]
