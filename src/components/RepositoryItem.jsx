@@ -1,31 +1,7 @@
 import React from "react"
 import { Text, View, StyleSheet } from "react-native"
 import StyledText from "./StyleText"
-
-const RepositoryStats = props => {
-    return (
-        /* Filas */
-        <View style={{ flexDirection: 'row', justifyContent: 'space-around' }} >
-            <View>
-                <StyledText align='center' fontWeight='bold'>Stars</StyledText >
-                <StyledText align='center' >{props.stargazersCount}</StyledText >
-            </View>
-            <View>
-                <StyledText align='center'  fontWeight='bold'>forks</StyledText>
-                <StyledText align='center' >{props.forksCount}</StyledText>
-            </View>
-            <View>
-                <StyledText align='center' fontWeight='bold'> Rating</StyledText>
-                <StyledText align='center'>{props.ratingAverage}</StyledText>
-            </View>
-            <View>
-                <StyledText align='center' fontWeight='bold'>Review</StyledText>
-                <StyledText align='center' >{props.reviewCount}</StyledText>
-            </View>
-
-        </View>
-    )
-}
+import RepositoryStats from '../components/RepositoryStats'
 
 const RepositoryItem = (props) => {
     return (
