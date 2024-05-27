@@ -36,7 +36,8 @@ export default function StyledText ({children, align, color, fontSize,
         color === 'primary' && styles.color,
         color === 'secundary' && styles.secundary,
         fontSize === 'subheading' && styles.subheading,
-        fontWeight === 'bold' && styles.bold
+        fontWeight === 'bold' && styles.bold,
+        style
 
     ]
 
