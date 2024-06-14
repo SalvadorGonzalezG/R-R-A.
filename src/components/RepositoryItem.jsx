@@ -8,12 +8,15 @@ import theme from "../theme"
 const RepositoryItemHeader = ({ownerAvatarUrl,fullName,description,language}
 ) => {
     return(
-    <View>
+    <View style={{flexDirection: 'row', paddingBottom: 2 }}>
+        <View style={{paddingRight: 10}}>
         <Image style={styles.image} source={{ uri: ownerAvatarUrl }} />
-        <StyledText style={styles.language}>{language}</StyledText>
+        </View>
+        <View style={{ flexGrow: 1}}>
         <StyledText fontSize='subheading' fontWeight='bold'>name: {fullName}</StyledText>
         <StyledText color='primary'>{description}</StyledText>
-        
+        <StyledText style={styles.language}>{language}</StyledText>
+        </View>
     </View>
     );
 };
